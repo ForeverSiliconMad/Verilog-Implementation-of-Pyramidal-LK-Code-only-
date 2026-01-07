@@ -2,7 +2,7 @@ Verilog code only, no MATLAB codes.
 
 This project is a work in progress. 
 
-Majorly, all the memory has been implemented as simulation only, and no BRAMs are used. The integration of BRAMs with the existing multiple point synchronous FIFO logic is being done. Due to this, when the code is synthesized, a high LUT count is observed (121k). 
+Majorly, all the memory has been implemented as simulation only, and no BRAMs are used. The integration of BRAMs with the existing multiple pointer synchronous FIFO logic is being done. Due to this, when the code is synthesized, a high LUT count is observed (121k). 
 
 There are no constraints (except the clock period set to 10ns).
 
